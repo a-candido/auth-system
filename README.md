@@ -77,4 +77,4 @@ Stored hash (bcrypt output, never the plaintext password):
 ---
 
 Ana Laura Cândido Silveira
-[LinkedIn](https://www.linkedin.com/in/ana-laura-candido)
+[LinkedIn](https://www.linkedin.com/in/analauracandido)

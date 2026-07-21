@@ -42,9 +42,9 @@ Follow the on-screen menu to register a new user, log in, or exit.
 Registering a new user:
 ```
 --- Sistema de Autenticação ---
-Registrar
-Login
-Sair
+1. Registrar
+2. Login
+2. Sair
 Escolha uma opção: 1
 Novo usuário: ana
 Nova senha: ********

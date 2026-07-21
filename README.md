@@ -1,6 +1,6 @@
 # Auth System
 
-A Python authentication system that never stores or reconstructs passwords in plain text — not even during login.
+A Python authentication system that never stores or reconstructs passwords in plain text not even during login.
 
 ## Why this project
 
@@ -10,8 +10,8 @@ Storing passwords is a common task, but an easy one to get wrong. This project i
 
 - **bcrypt over simple hashing (e.g. SHA-256):** bcrypt is intentionally slow and generates an automatic random salt per password, making brute-force and rainbow table attacks impractical. A fast hash like SHA-256 alone is not suitable for passwords.
 - **Parameterized SQL queries:** all database queries use placeholders (`?`) instead of string concatenation, preventing SQL injection.
-- **Password never leaves as plain text:** even during login, the entered password is hashed and compared against the stored hash — it is never decrypted or reversed, because bcrypt hashes are not reversible.
-- **SQLite for persistence:** lightweight, file-based storage with no external dependencies — suitable for a system of this scale.
+- **Password never leaves as plain text:** even during login, the entered password is hashed and compared against the stored hash where it is never decrypted or reversed, because bcrypt hashes are not reversible.
+- **SQLite for persistence:** lightweight, file-based storage with no external dependencies suitable for a system of this scale.
 
 ## Features
 
@@ -40,9 +40,8 @@ Follow the on-screen menu to register a new user, log in, or exit.
 ## Usage example
 
 Registering a new user:
-
---- Sistema de Autenticação ---
 ```
+--- Sistema de Autenticação ---
 Registrar
 Login
 Sair

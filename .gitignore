@@ -1,0 +1,12 @@
+# Ambiente virtual
+.venv/
+
+# Banco de dados local (contém hashes de senha)
+usuarios.db
+
+# Cache do Python
+__pycache__/
+*.pyc
+
+# Configurações do PyCharm
+.idea/
